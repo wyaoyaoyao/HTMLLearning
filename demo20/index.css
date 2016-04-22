@@ -1,0 +1,60 @@
+body,ul,li{
+	margin:0;
+	padding:0;
+}
+*{box-sizing:border-box;}
+.toupian img{
+	display:block;
+	width:100%;
+}
+.liebiao{
+	padding:5px;
+}
+.liebiao img{
+	height:100px;
+	max-width:100%;
+	display:block;
+	margin:0 auto 0 auto;
+}
+.liebiao:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.liebiao li{
+	list-style-type:none;
+	padding:5px;
+	width:50%;
+	float:left;
+	overflow:hidden;
+}
+.liebiao a{
+	border:1px solid #847F7F;
+	display:block;
+	border-radius:5px;
+	overflow:hidden;
+	text-decoration:inherit;
+}
+h2{
+	font-size:12px;
+	font-weight:normal;
+	overflow:hidden;
+	line-height:15px;
+	height:20px;
+	text-align:center;
+}
+
+.rmb{
+	text-align:center;
+	padding:0 0 10px 0;
+}
+.red{
+	font-size:16px;
+	color:red;
+	font-weight:bold;
+}
+.blue{
+	font-size:12px;
+	color:blue;
+	text-decoration:line-through;
+}
