@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+<!-- 带有输入框和确认按钮的表单 -->
+	<form action="/example/html/form_action.asp" method="get">
+	  <p>First name: <input type="text" name="fname" /></p>
+	  <p>Last name: <input type="text" name="lname" /></p>
+	  <input type="submit" value="Submit" />
+	</form>
+
+	<p>请单击确认按钮，输入会发送到服务器上名为 "form_action.asp" 的页面。</p>
+
+<!-- 带有复选框的表单 -->
+	<form name="input" action="/html/html_form_action.asp" method="get">
+	I have a bike:
+	<input type="checkbox" name="vehicle" value="Bike" checked="checked" />
+	<br />
+	I have a car: 
+	<input type="checkbox" name="vehicle" value="Car" />
+	<br />
+	I have an airplane: 
+	<input type="checkbox" name="vehicle" value="Airplane" />
+	<br /><br />
+	<input type="submit" value="Submit" />
+	</form> 
+
+	<p>如果您点击 "Submit" 按钮，您将把输入传送到名为 html_form_action.asp 的新页面。</p>
+
+	<!--文本域 (Text field)  -->
+	
+	<form>
+	名：
+	<input type="text" name="firstname">
+	<br />
+	姓：
+	<input type="text" name="lastname">
+	</form>
+
+<!-- 密码域 -->
+	<form>
+	用户：
+	<input type="text" name="user">
+	<br />
+	密码：
+	<input type="password" name="password">
+	</form>
+	<p>
+	请注意，当您在密码域中键入字符时，浏览器将使用项目符号来代替这些字符。
+	</p>
+</body>
+</html>
