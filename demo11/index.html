@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文本域/框</title>
+</head>
+<body>
+<!-- 复选框 -->
+	<form>
+	我喜欢自行车：
+	<input type="checkbox" name="Bike">
+	<br />
+	我喜欢汽车：
+	<input type="checkbox" name="Car">
+	</form>
+
+<!-- 单选按钮 -->
+	<form>
+	男性：
+	<input type="radio" checked="checked" name="Sex" value="male" />
+	<br />
+	女性：
+	<input type="radio" name="Sex" value="female" />
+	</form>
+
+	<p>当用户点击一个单选按钮时，该按钮会变为选中状态，其他所有按钮会变为非选中状态。</p>
+
+<!-- 简单的下拉列表 -->
+	<form>
+	<select name="cars">
+	<option value="volvo">Volvo</option>
+	<option value="saab">Saab</option>
+	<option value="fiat">Fiat</option>
+	<option value="audi">Audi</option>
+	</select>
+	</form>
+
+
+<!-- 另一个下拉列表 -->
+	<form>
+	<select name="cars">
+	<option value="volvo">Volvo</option>
+	<option value="saab">Saab</option>
+	<option value="fiat" selected="selected">Fiat</option>
+	<option value="audi">Audi</option>
+	</select>
+	</form>
+
+
+<!--文本域（textarea）  -->
+<p>
+	This example cannot be edited
+	because our editor uses a textarea
+	for input,
+	and your browser does not allow
+	a textarea inside a textarea.
+	</p>
+
+	<!-- 文本   行=2行  列=30列 -->
+	<textarea rows="2" cols="30">
+	The cat was playing in the garden.
+
+</body>
+</html>
